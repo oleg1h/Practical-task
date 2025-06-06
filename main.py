@@ -12,6 +12,9 @@ def Choose_the_Number(random_number):
             print(f"Занадто велике!\nЗалишилося {7-i} спроб/и!")
         else:
             print(f"Занадто маленьке!\nЗалишилося {7-i} спроб/и!")
+        if i == 7:
+            print(f"Ви вичерпали всі спроби!\nЗагадане число {random_number}")
+            break
     print("Гру завершено! Вітаю")
 
 def main():
