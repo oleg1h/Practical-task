@@ -3,7 +3,7 @@ import random
 
 #Відгадування числа
 def Choose_the_Number(random_number):
-    for i in range(1, 7, 1): #Цикл для відгадування
+    for i in range(1, 8, 1): #Цикл для відгадування
         number = int(input("Введіть число: "))
         if number == random_number:
             print(f"Ви відгадали число з {i} сроб/и! Загадане число було {random_number}!")
@@ -15,7 +15,7 @@ def Choose_the_Number(random_number):
         if i == 7:
             print(f"Ви вичерпали всі спроби!\nЗагадане число {random_number}")
             break
-    print("Гру завершено! Вітаю")
+    print("Гру завершено!")
 
 def main():
     # Загадування числа
